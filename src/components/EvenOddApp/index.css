@@ -1,0 +1,48 @@
+.bgContainer {
+  display: flex;
+  background-color: #ffffff;
+  background-size: cover;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cardContainer {
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .cardContainer {
+    width: 500px;
+    height: 500px;
+  }
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: #0f172a;
+}
+.para1 {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #334155;
+}
+.btn {
+  height: 34px;
+  width: 120px;
+  border-radius: 10px;
+  border-width: 0px;
+  font-family: 'Roboto';
+  font-size: 14px;
+}
+.para2 {
+  font-family: 'Roboto';
+  font-size: 10px;
+  color: #334155;
+}
